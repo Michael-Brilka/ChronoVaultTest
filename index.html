@@ -4,28 +4,24 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta name="description" content="Tracking Task Progress with a Proactive Video Recording System">
+  <meta property="og:title" content="Tracking Task Progress with a Proactive Video Recording System"/>
+  <meta property="og:description" content="Tracking Task Progress with a Proactive Video Recording System"/>
+  <meta property="og:url" content="https://michael-brilka.github.io/ChronoVaultTest/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <!--<meta property="og:image" content="static/image/your_banner_image.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
+-->
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="wearable, proactive video recording, data reduction">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>Tracking Task Progress with a Proactive Video Recording System</title>
+  <link rel="icon" type="image/x-icon" href="static/images/ChronoVault.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,22 +48,19 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Tracking Task Progress with a Proactive Video Recording System</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Michael brilka</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Kristof Van Laerhoven</a><sup>*</sup>,</span>
+                  
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+                    <span class="author-block">University of Siege<br>OpenWearables 2025</span>
+                    </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
@@ -95,7 +88,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/Michael-Brilka/ChronoVault" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -132,9 +125,10 @@
         <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
+      <!--
       <h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+      </h2> -->
     </div>
   </div>
 </section>
@@ -148,7 +142,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Reliving past events is a crucial aspect of visual research, enabling deeper insights into both the sequence and context of actions. Ideally, a continuous recording would ensure that no moment is lost; however, this approach quickly becomes impractical due to the immense effort required to review and analyze large amounts of footage. 
+To address this challenge, prior work has introduced devices equipped with sensors and cameras that automatically trigger recordings when predefined conditions are met. While this selective recording approach reduces unnecessary footage, it is limited to capturing only the present and lacks retrospective context, which is essential for analyzing complex scenarios.
+We introduce ChronoVault, an open-source framework designed for simple setup, configuration, and recording of retrospective videos. ChronoVault continuously monitors hardware- and software-signals, buffering a video-stream and saving said buffer, when specific conditions are detected. The system is built on the Raspberry Pi Zero 2, which supports camera integration and connectivity with peripheral devices.
+To evaluate ChronoVault we performed a user study. In it, participants were tasked to build a model out of building blocks and document the ends of certain subassembly tasks. Compared to an external reference camera, we reduce the footage amount, while retaining all relevant events.
           </p>
         </div>
       </div>
@@ -158,34 +155,133 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- Hardware --> 
+<section class="section hero is-small"> 
+	<div class="container"> 	
+		<div class="columns has-text-left is-four-fifths"> 
+			<div class="column"> 
+				<h2 class="title is-3">The Video Capture System</h2> <div class="content has-text-justified"> 
+					<p> 
+					
+					The video capture system is built around the Raspberry Pi Zero 2 W, chosen for its ability to encode 1080p video at 30 fps. Since it lacks a real-time clock, an external RTC module was added for reliable timestamping. Video transfers are handled wirelessly via SSH over a self-hosted Wi-Fi hotspot, activated by a hardware switch that toggles between recording and transfer modes. The camera connects via CSI, using the official Raspberry Pi High Quality Camera with support for interchangeable lenses. To provide user feedback and detect system errors (e.g., Picamera2 crashes), an LED indicates active recording status. The system leaves 23 GPIO pins free for expansion and is powered by a Li-Po battery with direct voltage supply and a basic charging board, all controlled through a physical power switch. </br>
+					
+				</br>
+					<div class="columns is-centered has-text-left"> 
+						<image is-centered loop muted width="80%" height="auto" src="static/images/banner.png"></video>
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</div>
+		
+</section>
+<!-- End Hardware -->
+
+<!-- Software --> 
+<section class="section hero is-small"> 
+	<div class="container"> 	
+		<div class="columns has-text-left is-four-fifths"> 
+			<div class="column"> 
+				<h2 class="title is-3">The Software</h2> <div class="content has-text-justified"> 
+					<p> 
+					
+					The software is built on the Picamera2 Python package and extended with a lightweight, modular framework for easy deployment and customization. It consists of three core components:
+
+    Settings: Configurations are defined in a YAML file loaded at startup, specifying parameters like output paths, camera settings, and device IDs—allowing centralized, scalable control across devices.
+
+    Record: Video capture uses Picamera2’s CircularOutput to buffer recent footage in RAM. When triggered, buffered frames are saved and optionally extended by a configurable duration before being written as H.264 files.
+
+    Save-Event: Triggers the recording process via software or hardware. Software triggers use a blocking queue; hardware triggers rely on GPIO edge detection via the rpi-lgpio library. Multiple triggers can run in parallel.
+
+This structure provides researchers with a flexible and efficient recording solution that’s easy to configure and deploy, while still supporting complex use cases. </br>
+					
+				</br>
+				</div> 
+			</div> 
+		</div> 
+	</div>
+		
+</section>
+<!-- End Software -->
+
+<!-- Survey --> 
+<section class="section hero is-small"> 
+	<div class="container"> 	
+		<div class="columns has-text-left is-four-fifths"> 
+			<div class="column"> 
+				<h2 class="title is-3">Survey</h2> <div class="content has-text-justified"> 
+					<p> 
+					To assess the functionality of our platform and highlight its advantages in both data capture and post-analysis, we conducted a user study.
+					In the user study, participants were asked to assemble a small flower modelusing building blocks.
+					The experiment involved comparing footage recorded by ChronoVault with that from an external reference camera, alongside collecting qualitative participant feedback on their experience using the system.
+					After the experiment, participants completed a 33-question survey covering demographics, technology use, usability (SUS), trust (TIAS), and custom questions about their experience with ChronoVault.
+
+The System Usability Scale (SUS) yielded an average score of 77.5, with a Cronbach’s Alpha of 0.791, indicating good usability and internal consistency. The Trust in Automation Scale (TIAS) averaged 4.9, with a Cronbach’s Alpha of 0.782, suggesting participants found the system trustworthy.
+
+Custom feedback showed that most participants found video recording straightforward, though one participant struggled—suggesting room for improved guidance. About 83% reported that the device did not interfere with their manual task. Opinions were mixed on who should control the recording and whether automatic, body-based triggers would be preferable.
+
+Some uncertainty was noted regarding input recognition, with five participants unsure whether their recording attempts were successful. This indicates a potential need for clearer feedback, such as haptic indicators. Nonetheless, most participants felt in control of the device.
+
+In summary, users rated ChronoVault as easy to use, trustworthy, and reliable, and most expressed a willingness to use it again.
+					 </br>
+					
+				</br>
+				</div> 
+			</div> 
+		</div> 
+	</div>
+		
+</section>
+<!-- End Survey -->
+
+
+<!-- Survey --> 
+<section class="section hero is-small"> 
+	<div class="container"> 	
+		<div class="columns has-text-left is-four-fifths"> 
+			<div class="column"> 
+				<h2 class="title is-3">Download</h2> <div class="content has-text-justified"> 
+					<p> 
+					To allow a quick and easy deployment we provide an image of the entire os that we used. Which can be downloaded from this link. The OS is setup to automaticly launch into the desktop mode. The current username is rpzeroPW123 and the password is 123.
+					 </br>
+					
+				</br>
+				</div> 
+			</div> 
+		</div> 
+	</div>
+		
+</section>
+<!-- End Survey -->
+
+<!-- Image carousel
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
+        <!-- Your image here 
         <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
+        <!-- Your image here 
         <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
+        <!-- Your image here 
         <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
-      <!-- Your image here -->
+      <!-- Your image here 
       <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
@@ -196,82 +292,6 @@
 </div>
 </section>
 <!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->
