@@ -52,14 +52,14 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Michael brilka</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Michael Brilka</a><sup>*</sup>,</span>
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Kristof Van Laerhoven</a><sup>*</sup>,</span>
                   
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">University of Siege<br>OpenWearables 2025</span>
+                    <span class="author-block">University of Siegen<br>OpenWearables 2025</span>
                     </div>
 
                   <div class="column has-text-centered">
@@ -167,7 +167,7 @@ To evaluate ChronoVault we performed a user study. In it, participants were task
 					
 				</br>
 					<div class="columns is-centered has-text-left"> 
-						<image is-centered loop muted width="80%" height="auto" src="static/images/banner.png"></video>
+						<image is-centered loop muted width="80%" height="auto" src="static/images/schematic.jpg"></video>
 					</div> 
 				</div> 
 			</div> 
@@ -185,13 +185,13 @@ To evaluate ChronoVault we performed a user study. In it, participants were task
 				<h2 class="title is-3">The Software</h2> <div class="content has-text-justified"> 
 					<p> 
 					
-					The software is built on the Picamera2 Python package and extended with a lightweight, modular framework for easy deployment and customization. It consists of three core components:
+					The software is built on the Picamera2 Python package and extended with a lightweight, modular framework for easy deployment and customization. It consists of three core components:</br>
 
-    Settings: Configurations are defined in a YAML file loaded at startup, specifying parameters like output paths, camera settings, and device IDs—allowing centralized, scalable control across devices.
+    Settings: Configurations are defined in a YAML file loaded at startup, specifying parameters like output paths, camera settings, and device IDs—allowing centralized, scalable control across devices.</br>
 
-    Record: Video capture uses Picamera2’s CircularOutput to buffer recent footage in RAM. When triggered, buffered frames are saved and optionally extended by a configurable duration before being written as H.264 files.
+    Record: Video capture uses Picamera2’s CircularOutput to buffer recent footage in RAM. When triggered, buffered frames are saved and optionally extended by a configurable duration before being written as H.264 files.</br>
 
-    Save-Event: Triggers the recording process via software or hardware. Software triggers use a blocking queue; hardware triggers rely on GPIO edge detection via the rpi-lgpio library. Multiple triggers can run in parallel.
+    Save-Event: Triggers the recording process via software or hardware. Software triggers use a blocking queue; hardware triggers rely on GPIO edge detection via the rpi-lgpio library. Multiple triggers can run in parallel.</br>
 
 This structure provides researchers with a flexible and efficient recording solution that’s easy to configure and deploy, while still supporting complex use cases. </br>
 					
